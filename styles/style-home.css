@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Topo */
+.secao-topo{
+    padding: 35px 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.topo{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-logo h1{
+    font-size: 32px;
+    color: #000;
+}
+
+.txt-logo p{
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.img-logo img{
+    width: 70px;
+} 
+
+.box-link{
+    display: flex;
+    align-items: center;
+}
+
+.box-link a{
+    margin: 0 10px;
+    color: #233032;
+    font-size: 18px;
+}
+
+/* Banner */
+
+.secao-banner{
+    width: 100%;
+    padding: 180px 0;
+    background-color: #2f86d6;
+}
+
+.banner{
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-banner{
+    width: 470px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.txt-banner p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.txt-banner h2{
+    font-size: 28px;
+}
+
+.img-banner{
+    width: 50%;
+}
+
+/* Anúncios */
+
+.secao-anuncio1,
+.secao-anuncio2{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.anuncio{
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-anuncio{
+    color: #fff;
+    width: 600px;
+}
+
+.txt-anuncio h2{
+    font-size: 24px;
+}
+
+.txt-anuncio p{
+    font-size: 16px;
+}
+
+
+.link-anuncio1 img,
+.link-anuncio2 img{
+    width: 20px;
+}
+
+/* Anúncio 1 */
+
+.secao-anuncio1{
+    background-color: #233032;
+}
+
+.link-anuncio1{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f86d6;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.link-anuncio1 a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Anúncio 2 */
+
+.secao-anuncio2{
+    background-color: #2f86d6;
+}
+
+.link-anuncio2{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233032;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.link-anuncio2 a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Informações */
+
+.secao-info{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.secao-info h2{
+    margin: 0 auto;
+    width: 900px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.secao-info h2 span{
+    color: #2f86d6;
+}
+
+.info{
+    padding: 20px 0;
+    margin: 50px auto;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 0 5px;
+    color: #000;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card h3{
+    font-size: 18px;
+}
+
+.card p{
+    font-size: 16px;
+}
+
+/* Planos */
+
+.secao-planos{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.planos{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.planos h2{
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.planos span{
+    font-size: 32px;
+    color: #2f86d6;
+}
+
+table{
+    border-radius: 4px;
+    margin: 10px auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+    text-align: center;
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table h3{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+table p{
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table img{
+    width: 100px;
+    margin: auto;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+    font-size: 16px;
+    background-color: #f6f6f6;
+}
+
+tbody tr:nth-child(even){
+    font-size: 16px;
+    background-color: #f1f3f7;
+}
+
+/* Contatos */
+
+.secao-contato{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.contato{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-contato{
+    margin: 15px auto;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-contato h1{
+    text-align: left;
+    font-size: 32px;
+    color: #000;
+}
+
+.logo-contato p{
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.img-logo-contato img{
+    width: 100px;
+}
+
+.box-contatos p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+/* Rodape */
+
+.secao-rodape{
+    width: 100%;
+    background-color: #f1f3f7;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.secao-rodape p span{
+    color: #2f86d6;
+}
